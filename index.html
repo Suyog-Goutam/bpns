@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>BPNS Tradelink</title>
+</head>
+<body class="light-mode">
+    <header>
+
+        <h1>BPNS Tradelink</h1>
+        <nav>
+            <div id="logo-img">
+                <a href="#">
+                    <img src="Logo Finalize2.png" alt="BPNS Tradelink Logo">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="main.html">Home</a>
+                </li>
+                <li>
+                    <a class="active" href="index.html">Products</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+                <li>
+                </li>
+            </ul>
+        </nav>
+        <button id="modeToggle">Dark Mode</button>
+    </header>
+    
+    <main class="main-container">
+        <div class="search">
+            <label for="searchInput">Item Name:</label>
+            <input type="text" id="searchInput" placeholder="Enter item name">
+            <button id="searchButton">Search</button>
+        </div>
+
+        <div class="categories">
+            <h2>Categories</h2>
+            <select id="categorySelect">
+                <option value="all">All</option>
+                <option value="category1">Drills and Saw</option>
+                <option value="category2">Measuring Tools</option>
+                <option value="category3">Safety Equipments</option>
+                <option value="category4">Air Compressors</option>
+                <option value="category5">Wrenches and Other Tools</option>
+                <option value="category6">General Tools And Equipments</option>
+                <option value="category7">Cleaning Equipments</option>
+                <option value="category8">Sets and Bundles</option>
+                <option value="category9">Shop's Images</option>
+                <option value="category10">Electrical Tools</option>
+            </select>
+        </div>
+        
+        <div class="products">
+            <h2>Products</h2>
+            <!-- Product cards will be added dynamically here using JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 BPNS Tradelink</p>
+    </footer>
+
+    <!-- Modal for enlarged images -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

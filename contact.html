@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <title>Contact Us</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('imagebg.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-family: "Roboto Slab", serif;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            clear: both;
+            margin-top: 185px;
+        }
+
+        .container {
+            max-width: 600px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            margin-top: 120px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: "Roboto Slab", serif;
+        }
+
+        .contact-numbers {
+            margin-bottom: 20px;
+        }
+
+        .contact-number {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        a:hover {
+            color: #555;
+        }
+
+        .facebook-container {
+            text-align: center;
+        }
+
+        .facebook-button {
+            display: inline-block;
+            background-color: #00826a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .facebook-button:hover {
+            background-color: #200072;
+        }
+        nav {
+            height: 72px;
+            background: #202125;
+            width: 100%;
+            margin: 0;
+            position: fixed;
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 16px 0 0;
+            box-sizing: border-box;
+            z-index: 100;
+        }
+  
+        nav a {
+            padding: 0 32px;
+            color: #eee;
+            transition: 0.4s;
+        }
+        
+        nav a:hover {
+            text-decoration: none;
+            color: red;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+        }
+        #logo-img {
+            display: flex;
+            height: 100%;
+            background: #111;
+            padding: 0 32px;
+            align-items: center;
+            color: white;
+            transition: 0.4s;
+        }
+        
+        #logo-img img {
+            height: 100px;
+        }
+        
+        #logo-img:hover {
+            background: black;
+        }
+        .active {
+            color: #f783ae;
+        }
+    </style>
+</head>
+<body>
+        <nav>
+            <div id="logo-img">
+                <a href="#">
+                    <img src="Logo Finalize2.png" alt="BPNS Tradelink Logo">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="main.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html">Products</a>
+                </li>
+                <li>
+                    <a class="active" href="Contact.html">Contact</a>
+                </li>
+                <li>
+                </li>
+            </ul>
+        </nav>
+    <div class="container">
+        <h2>Contact Numbers:</h2>
+        <ul class="contact-numbers">
+            <li><a href="tel:+1234567890">Ramesh: 9816999951</a></li>
+            <!-- Add more contact numbers as needed -->
+        </ul>
+    </div>
+    <div class="container facebook-container">
+        <h2>Facebook:</h2>
+        <a class="facebook-button" href="https://www.facebook.com/profile.php?id=100083970139867">Visit our Facebook page</a>
+    </div>
+    <footer>
+        &copy; 2023 Contact Us Page
+    </footer>
+</body>
+</html>
